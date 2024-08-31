@@ -1,0 +1,340 @@
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+     <link rel="icon" href="../assets/images/1311.png" />
+     <title>Rafael's School Projects</title>
+    <!-- <meta name="description" content="A portfolio template for the Unemployables community."> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <!-- 
+          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
+
+          (this should be the same across all pages)
+         -->
+        <span class="nav-title">Home</span>
+        <!-- 
+          TODO - Change the email after 'mailto:' to your email address for contact 
+        
+          (this should be the same across all pages)
+        -->
+        <a class="button" href="mailto:rmorales.55.11@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+          <!-- 
+            TODO
+
+            - Change the 'main-title' text to the name of your project
+            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
+            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
+          -->
+        <div class="main-title">School Projects</div>
+        <div class="body-text">Projects completed while in Univeristy. The project consists of a focus on mechanical engineering and robotics.</div>
+        <!-- <image class="project-header-image" src="../assets/images/desktop.jpeg"> -->
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <!-- 
+        TODO
+
+        - Change the 'subheader-text' to whatever header you want for project details
+        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
+      -->
+      <div id="project-details">
+        <div class="subheader-text">Wearable Custom Flashlight</div>
+        <div class="project-details-content">
+          <div class="body-text">This custom flashlight was designed with portability in mind and features two modes. The first mode is a wearable flashlight that attaches to the wrist, providing hands-free illumination without limiting movement. It has three buttons on its top surface: power, modes (for different light settings), and reset (for quickly switching back to the regular flashlight mode). The second mode is the detachable lights mode, where the user can remove the three individual lights and attach them to their fingers for more precise illumination. In this project, I was responsible for the final product design and also led the design team. Additionally, I conducted failure mode and effects analysis (FMEA) to ensure the design was both usable and safe.</div>
+        </div>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images_school/picture front.PNG" class="gallery-image">
+              <span class="image-caption">Front view of the Custom flashlight</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images_school/solo extended.PNG" class="gallery-image">
+              <span class="image-caption">Front view of the custom flashlight with the miniature finger flashlights disconnected.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images_school/Custom_flashlight.gif" class="gallery-image">
+              <span class="image-caption">Illustration of the custom flashlight. In its compact form, it functions as a regular flashlight with the benefit of being hands-free. In its extended mode, it allows the user to aim the light with greater precision using the finger-attached lights while remaining hands-free. Potentiometers built into the finger lights enable the user to control the light intensity by rotating the neck of each finger light.</span>
+
+            <!-- </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/remoteopti.jpg" class="gallery-image">
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/optiband wrist-1.gif" class="gallery-image">
+              <span class="image-caption">A breakdown of the remote Optiband and the components that enable the system to function. The components were secured in place by using press-fit measurements. The buttons were placed in individual compartments, allowing each button to maintain its position regardless of the force applied by the user.</span>
+            </div> -->
+        </div>
+<!-- Project 2 ------------------------------------------------------------------- -->
+        <br>
+        <div id="project-details">
+          <div class="subheader-text">GoBot</div>
+          <div class="project-details-content">
+            <div class="body-text">GoBot was designed to promote physical movement in young children. It was developed using Python to control a TurtleBot, onto which the reward stack was mounted, and C++ to control the reward stack itself. GoBot operated by using an algorithm to track the position of an individual and move away from them, thereby encouraging physical movement. Additionally, GoBot featured three types of rewards (reward stack): lights, bubbles, and sounds, which were used to attract the attention of young children.</div>
+            <div class="body-text">My primary focus on this project was split into two areas. The first was designing protective shields for the UI interface and wires. This was important because it protected the UI from liquids caused by the bubbles and kept both the wires and the interface away from children. The second area was redesigning the bubble module. Previously, the entire bubble module had to be removed to replace any damaged parts. The current design allows users to easily remove each bubble ring without having to dismantle the entire system.</div>
+          </div>
+        </div>
+      <!-- IMAGE GALLERY -->
+      <br>
+      <br>
+      <br>
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GoBot1.jpg" class="gallery-image">
+              <span class="image-caption">View of the UI shield.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GoBot2.jpg" class="gallery-image">
+              <span class="image-caption">View of the wire shield.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GoBot3.jpg" class="gallery-image">
+              <span class="image-caption">View of the redesigned bubble ring holder which allows for easy install of custom bubble rings.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GoBot4.jpg" class="gallery-image">
+              <span class="image-caption">View of a bubble ring attached to the bubble holder. Showing off the clip-on system that allows for easy installation. </span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/GoBot.gif" class="gallery-image">
+              <span class="image-caption">An illustration of the reward stack, which includes the protective shields, as well as an illustration of the bubble ring mount in operation (showing its rotation) and the installation and removal of the bubble rings.</span>
+            </div>
+
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/GoBot bubbles.gif" class="gallery-image">
+              <span class="image-caption">A view of the bubble rings in operation, as well as one of the protective shields (UI cover).</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/image.jpg" class="gallery-image">
+              <span class="image-caption">A view of the protective shield covering the UI.</span>
+            </div>
+            
+        </div>
+
+<!-- Project 3 ------------------------------------------------------------------- -->
+<br>
+<div id="project-details">
+  <div class="subheader-text">Occupational Thearpy mobility assisting system</div>
+  <div class="project-details-content">
+    <div class="body-text">This project was the main focus of my Master's thesis. It aimed to develop a teleoperated interface system that enables children with cognitive and motor impairments to use a mobile robot for performing Activities of Daily Living (ADL) and Instrumental Activities of Daily Living (IADL), such as picking up water cups and interacting with objects and people in their environment. The project was a collaboration between the Robotics Department at Oregon State University (OSU) and healthcare experts in Occupational Therapy. We used a rapid prototyping approach to quickly and efficiently adjust the interface after each interaction with our participant.</div>
+    <div class="body-text">The result of my work was an interface that utilized the Robot Operating System (ROS) and Python, allowing our participant to interact with their surroundings. The interface was built using PyQt, and a touchscreen was employed to control the robot (Hello Robot: Stretch RE2). The system collected joint data from the robot, including the positions of the arm, wrist, and gripper, as well as the base position. This data was used to create a script enabling the user to move each robot component by clicking digital buttons that corresponded to specific robot actions (e.g., move forward). The button layout underwent multiple revisions to ensure the system was as user-friendly as possible. This included replacing text with pictures representing actions and simplifying the user interface to enhance usability.</div>
+    <div class="body-text">In addition to this, I designed an LED eye array that allowed the robot to express intent. This feature enabled the robot to have a gaze (i.e., move its eyes around the environment and pinpoint certain objects) and display various eye expressions (such as happy, sad, confused, and angry). This was achieved by implementing C++ to control the eye effects (gaze and expressions) and integrating it with a Python script that managed the camera's position (a camera capable of tilting and panning) mounted on the robot, facilitating the gaze functionality.</div>
+
+  </div>
+</div>
+
+
+
+
+<!-- IMAGE GALLERY -->
+ <br>
+ <br>
+ <br>
+<div id="project-gallery">
+<!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+
+
+<div class="subheader-text">Image Gallery</div>
+<div class="project-gallery-content">
+    <!-- 
+      TODO
+
+      This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+      Full Width Image:
+
+        <div class="gallery-image-container">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
+
+      Half Width Image: 
+
+        <div class="gallery-image-container half-width">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
+
+      - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+          - IMAGE_NAME: the name of the image file in assets/images
+          - IMAGE_CAPTION: to the caption of the image
+    -->
+          
+    <div class="gallery-image-container half-width">
+      <img src="../assets/images/interface_illustration4_final (1).jpg" class="gallery-image">
+      <span class="image-caption">Illustration of the field of view of the cameras used for the UI interface.</span>
+    </div>
+    <div class="gallery-image-container half-width">
+      <img src="../assets/images/interface_new.jpg" class="gallery-image">
+      <span class="image-caption">View of the UI (teleoperated) interface system.</span>
+    </div>
+    <div class="gallery-image-container">
+      <img src="../assets/images/Stretch moving3-1.gif" class="gallery-image">
+      <span class="image-caption">Footage of an individual with motor and cognitive impairments controlling the robot (bringing items to themselves).</span>
+    </div>
+    <!-- <div class="gallery-image-container">
+      <img src="../assets/images/camera.jpeg" class="gallery-image">
+      <span class="image-caption">Give your image a caption. People love context.</span>
+    </div> -->
+      
+    <!-- <div id="project-details">
+      <div class="subheader-text">Optiband</div>
+      <div class="project-details-content">
+        <div class="body-text">Links to codes used in my research</div>
+        
+      </div>
+    </div> -->
+
+      <div class="project-card">
+      <div class="project-card-text-container">
+      <a class="button" href="https://github.com/raff17/CDRC-code-Stretch-/blob/9dae5451c699a1ddbdcf31fec9eb1139285dad0c/xbox_controller.py">
+        <span class="button-text">Hello Robot Stretch Adaptive Controller code</span>
+        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
+      </div>
+
+    <div class="project-card">
+      <div class="project-card-text-container">
+      <a class="button" href="https://github.com/raff17/Hello-Robot-Stretch-Teleoperated-interface/blob/7c9126facf550839fc2250123ca0f70563fe98ad/scripts/OT_interface_working_test4.py">
+        <span class="button-text">&nbsp;UI (teleoperated) System code &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-text-container">
+      <a class="button" href="https://github.com/raff17/Hello-Robot-Stretch-Teleoperated-interface/blob/2b8482a6a7637bf5cbd5fae73ed0ade4cc46f86e/scripts/blinkEyes.ino">
+        <span class="button-text">Expresive Eyes code &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
+    </div>
+    </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your Instagram account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/instagram.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change href to your Twitter account (can also delete entire "a" element if no Twitter) 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://twitter.com/whitevans_eth">
+        <image src="../assets/icons/twitter.svg" class="footer-icon"/>
+      </a>
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="mailto:whitevans.eth@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
