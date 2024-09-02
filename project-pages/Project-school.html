@@ -187,23 +187,20 @@
             </div>
             <div class="gallery-image-container">
               <img src="../assets/images_school/Staple Gun Fianl Presentation.pptx (1).jpg" class="gallery-image">
-              <span class="image-caption">View of the redesigned part, which will be implemented between the handle and the lift arm joint.</span>
+              <span class="image-caption">View of the redesigned part, which will be implemented between the handle and the lift arm joint replacing the seesaw component.</span>
             </div>
 
             
         </div>
 
 <!-- Project 3 ------------------------------------------------------------------- -->
-<!-- <br>
+<br>
 <div id="project-details">
-  <div class="subheader-text">Occupational Thearpy mobility assisting system</div>
+  <div class="subheader-text">Path Finding Simulaion</div>
   <div class="project-details-content">
-    <div class="body-text">This project was the main focus of my Master's thesis. It aimed to develop a teleoperated interface system that enables children with cognitive and motor impairments to use a mobile robot for performing Activities of Daily Living (ADL) and Instrumental Activities of Daily Living (IADL), such as picking up water cups and interacting with objects and people in their environment. The project was a collaboration between the Robotics Department at Oregon State University (OSU) and healthcare experts in Occupational Therapy. We used a rapid prototyping approach to quickly and efficiently adjust the interface after each interaction with our participant.</div>
-    <div class="body-text">The result of my work was an interface that utilized the Robot Operating System (ROS) and Python, allowing our participant to interact with their surroundings. The interface was built using PyQt, and a touchscreen was employed to control the robot (Hello Robot: Stretch RE2). The system collected joint data from the robot, including the positions of the arm, wrist, and gripper, as well as the base position. This data was used to create a script enabling the user to move each robot component by clicking digital buttons that corresponded to specific robot actions (e.g., move forward). The button layout underwent multiple revisions to ensure the system was as user-friendly as possible. This included replacing text with pictures representing actions and simplifying the user interface to enhance usability.</div>
-    <div class="body-text">In addition to this, I designed an LED eye array that allowed the robot to express intent. This feature enabled the robot to have a gaze (i.e., move its eyes around the environment and pinpoint certain objects) and display various eye expressions (such as happy, sad, confused, and angry). This was achieved by implementing C++ to control the eye effects (gaze and expressions) and integrating it with a Python script that managed the camera's position (a camera capable of tilting and panning) mounted on the robot, facilitating the gaze functionality.</div>
-
+    <div class="body-text">Our team developed a path-finding algorithm and implemented it in a TurtleBot3 simulation using Gazebo and Rviz. We utilized the A* algorithm for this project, which evaluates the cost of each movement by summing the cost of the previous node, the cost of the edge (movement cost), and a heuristic function. This algorithm was then integrated into a TurtleBot3 simulation on a computer running Linux and the Robot Operating System (ROS). In our simulation, we designated a target location for the TurtleBot, and the algorithm generated a path to that location, which was visualized by blue squares shown in the images.</div>
   </div>
-</div> -->
+</div>
 
 
 
@@ -211,13 +208,13 @@
 <!-- IMAGE GALLERY -->
  <br>
  <br>
- <!-- <br>
+ <br>
 <div id="project-gallery">
 <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
 
 
-<!-- <div class="subheader-text">Image Gallery</div>
-<div class="project-gallery-content"> -->
+<div class="subheader-text">Image Gallery</div>
+<div class="project-gallery-content">
     <!-- 
       TODO
 
@@ -242,18 +239,12 @@
           - IMAGE_CAPTION: to the caption of the image
     -->
           
-    <!-- <div class="gallery-image-container half-width">
-      <img src="../assets/images/interface_illustration4_final (1).jpg" class="gallery-image">
-      <span class="image-caption">Illustration of the field of view of the cameras used for the UI interface.</span>
-    </div>
-    <div class="gallery-image-container half-width">
-      <img src="../assets/images/interface_new.jpg" class="gallery-image">
-      <span class="image-caption">View of the UI (teleoperated) interface system.</span>
-    </div>
     <div class="gallery-image-container">
-      <img src="../assets/images/Stretch moving3-1.gif" class="gallery-image">
-      <span class="image-caption">Footage of an individual with motor and cognitive impairments controlling the robot (bringing items to themselves).</span>
-    </div> -->
+      <img src="../assets/images_school/downloads.PNG" class="gallery-image">
+      <span class="image-caption">View of the simulation showing the TurtleBot detecting objects in its environment using LIDAR, indicated by the green scan lines, and the current possible path to the location, represented by the blue squares.</span>
+    </div>
+
+    
     <!-- <div class="gallery-image-container">
       <img src="../assets/images/camera.jpeg" class="gallery-image">
       <span class="image-caption">Give your image a caption. People love context.</span>
@@ -267,32 +258,14 @@
       </div>
     </div> -->
 
-      <!-- <div class="project-card">
+      <div class="project-card">
       <div class="project-card-text-container">
-      <a class="button" href="https://github.com/raff17/CDRC-code-Stretch-/blob/9dae5451c699a1ddbdcf31fec9eb1139285dad0c/xbox_controller.py">
-        <span class="button-text">Hello Robot Stretch Adaptive Controller code</span>
+      <a class="button" href="https://github.com/raff17/rob456_final_emerald-city.git">
+        <span class="button-text">Path Finding Code</span>
         <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
       </a>
       </div>
-
-    <div class="project-card">
-      <div class="project-card-text-container">
-      <a class="button" href="https://github.com/raff17/Hello-Robot-Stretch-Teleoperated-interface/blob/7c9126facf550839fc2250123ca0f70563fe98ad/scripts/OT_interface_working_test4.py">
-        <span class="button-text">&nbsp;UI (teleoperated) System code &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-      </a>
     </div>
-
-    <div class="project-card">
-      <div class="project-card-text-container">
-      <a class="button" href="https://github.com/raff17/Hello-Robot-Stretch-Teleoperated-interface/blob/2b8482a6a7637bf5cbd5fae73ed0ade4cc46f86e/scripts/blinkEyes.ino">
-        <span class="button-text">Expresive Eyes code &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
-        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
-      </a>
-    </div>
-    </div>
-      </div>
-    </div> -->
 
     <!-- FOOTER -->
     <div id="footer">
