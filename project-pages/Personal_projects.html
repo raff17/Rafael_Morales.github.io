@@ -1,4 +1,3 @@
-
 <!-- 
   IMPORTANT! 
   
@@ -24,8 +23,8 @@
       This should be the same across all pages.
      -->
      <link rel="icon" href="../assets/images/1311.png" />
-     <title>Personal projects</title>
-    <meta name="description" content="A portfolio template for the Unemployables community.">
+     <title>Rafael's Personal Projects</title>
+    <!-- <meta name="description" content="A portfolio template for the Unemployables community."> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="../css/layout.css">
@@ -43,7 +42,7 @@
 
           (this should be the same across all pages)
          -->
-        <span class="nav-title">Personal</span>
+        <span class="nav-title">Home</span>
         <!-- 
           TODO - Change the email after 'mailto:' to your email address for contact 
         
@@ -67,9 +66,9 @@
             - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
             - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
           -->
-        <div class="main-title">Project Name</div>
-        <div class="body-text">A small description about the project goes here, get the reader hooked on the project and tell them why they should continue to read this page. Give it a sweet tagline.</div>
-        <image class="project-header-image" src="../assets/images/desktop.jpeg">
+        <div class="main-title">School Projects</div>
+        <div class="body-text">Projects completed while in Univeristy. The project consists of a focus on mechanical engineering and robotics.</div>
+        <!-- <image class="project-header-image" src="../assets/images/desktop.jpeg"> -->
       </div>
 
       <!-- PROJECT DETAILS -->
@@ -80,10 +79,9 @@
         - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
       -->
       <div id="project-details">
-        <div class="subheader-text">Project Details / Background</div>
+        <div class="subheader-text">FPV Drones</div>
         <div class="project-details-content">
-          <div class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tristique risus nec feugiat in fermentum. Sed id semper risus in hendrerit gravida. Placerat duis ultricies lacus sed. Id neque aliquam vestibulum morbi blandit cursus risus. Elit pellentesque habitant morbi tristique senectus et netus et. Elementum tempus egestas sed sed risus pretium quam. Nibh ipsum consequat nisl vel pretium lectus quam id leo. Vitae congue mauris rhoncus aenean vel elit.</div>
-          <div class="body-text">Vitae justo eget magna fermentum. Imperdiet nulla malesuada pellentesque elit eget gravida. Aliquet nec ullamcorper sit amet. Aliquet sagittis id consectetur purus. Ac tortor dignissim convallis aenean. Enim neque volutpat ac tincidunt vitae. Lobortis feugiat vivamus at augue. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Viverra orci sagittis eu volutpat. Massa tincidunt nunc pulvinar sapien et ligula. Donec enim diam vulputate ut.</div>
+          <div class="body-text">This custom flashlight was designed with portability in mind and features two modes. The first mode is a wearable flashlight that attaches to the wrist, providing hands-free illumination without limiting movement. It has three buttons on its top surface: power, modes (for different light settings), and reset (for quickly switching back to the regular flashlight mode). The second mode is the detachable lights mode, where the user can remove the three individual lights and attach them to their fingers for more precise illumination. In this project, I was responsible for the final product design and also led the design team. Additionally, I conducted failure mode and effects analysis (FMEA) to ensure the design was both usable and safe.</div>
         </div>
       </div>
 
@@ -116,18 +114,140 @@
                   - IMAGE_CAPTION: to the caption of the image
             -->
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/code.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <img src="../assets/images_school/picture front.PNG" class="gallery-image">
+              <span class="image-caption">Front view of the Custom flashlight</span>
             </div>
+
+            <!-- </div>
             <div class="gallery-image-container half-width">
-              <img src="../assets/images/sketchbook.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
+              <img src="../assets/images/remoteopti.jpg" class="gallery-image">
             </div>
             <div class="gallery-image-container">
-              <img src="../assets/images/camera.jpeg" class="gallery-image">
-              <span class="image-caption">Give your image a caption. People love context.</span>
-            </div>
+              <img src="../assets/images/optiband wrist-1.gif" class="gallery-image">
+              <span class="image-caption">A breakdown of the remote Optiband and the components that enable the system to function. The components were secured in place by using press-fit measurements. The buttons were placed in individual compartments, allowing each button to maintain its position regardless of the force applied by the user.</span>
+            </div> -->
         </div>
+<!-- Project 2 ------------------------------------------------------------------- -->
+        <br>
+        <div id="project-details">
+          <div class="subheader-text">Assembly Counter</div>
+          <div class="project-details-content">
+            <div class="body-text">Programmed a binary counter using Assembly language with the ATMEGA328P microcontroller. For this project, I learned the basics of assembly language and expanded my understanding of binary numbers. The counter featured 5 LEDs: 1 LED blinked every second to indicate the passage of time, while the other 4 LEDs displayed the binary count, turning on and off to represent their respective values over a 30-second period. The Assembly code is linked below.</div>
+          </div>
+        </div>
+      <!-- IMAGE GALLERY -->
+      <br>
+      <br>
+      <br>
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              TODO
+
+              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images_personal/LEDs.gif" class="gallery-image">
+              <span class="image-caption">Stress analysis of lift arm joint.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images_personal/counter.jpg" class="gallery-image">
+              <span class="image-caption">Stress analysis of lift arm joint.</span>
+            </div>
+
+            
+        </div>
+
+<!-- Project 3 ------------------------------------------------------------------- -->
+<br>
+<div id="project-details">
+  <div class="subheader-text">PID control balance board</div>
+  <div class="project-details-content">
+    <div class="body-text">Our team developed a path-finding algorithm and implemented it in a TurtleBot3 simulation using Gazebo and Rviz. We utilized the A* algorithm for this project, which evaluates the cost of each movement by summing the cost of the previous node, the cost of the edge (movement cost), and a heuristic function. This algorithm was then integrated into a TurtleBot3 simulation on a computer running Linux and the Robot Operating System (ROS). In our simulation, we designated a target location for the TurtleBot, and the algorithm generated a path to that location, which was visualized by blue squares shown in the images.</div>
+  </div>
+</div>
+
+
+
+
+<!-- IMAGE GALLERY -->
+ <br>
+ <br>
+ <br>
+<div id="project-gallery">
+<!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+
+
+<div class="subheader-text">Image Gallery</div>
+<div class="project-gallery-content">
+    <!-- 
+      TODO
+
+      This is where the images in the gallery live. Here's a simple gallery image for you to copy:
+
+      Full Width Image:
+
+        <div class="gallery-image-container">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
+
+      Half Width Image: 
+
+        <div class="gallery-image-container half-width">
+          <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+          <span class="image-caption">IMAGE_CAPTION</span>
+        </div>
+
+      - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+          - IMAGE_NAME: the name of the image file in assets/images
+          - IMAGE_CAPTION: to the caption of the image
+    -->
+    <div class="gallery-image-container">
+      <img src="../assets/images_school/screenshot.png" class="gallery-image">
+      <span class="image-caption">A view of the simulation and the simulation environment. The image on the right shows the environment the robot is in, while the image on the left illustrates what the robot is currently processing.</span>
+    </div> 
+
+    
+    <!-- <div class="gallery-image-container">
+      <img src="../assets/images/camera.jpeg" class="gallery-image">
+      <span class="image-caption">Give your image a caption. People love context.</span>
+    </div> -->
+      
+    <!-- <div id="project-details">
+      <div class="subheader-text">Optiband</div>
+      <div class="project-details-content">
+        <div class="body-text">Links to codes used in my research</div>
+        
+      </div>
+    </div> -->
+
+      <div class="project-card">
+      <div class="project-card-text-container">
+      <a class="button" href="https://github.com/raff17/rob456_final_emerald-city.git">
+        <span class="button-text">Assembly Code</span>
+        <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+      </a>
       </div>
     </div>
 
