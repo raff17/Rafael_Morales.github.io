@@ -31,7 +31,6 @@
 		<link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/typography.css">
     <link rel="stylesheet" href="../css/utilities.css">
-
 		<script defer src="../js/script.js"></script>
 	</head>
 	<body>
@@ -197,7 +196,7 @@
         <div id="project-details">
         <div class="subheader-text">PLC pick and place robotic sorter</div>
         <div class="project-details-content">
-        <div class="body-text">Programmed a pick a place robotic sorting system using the IEC 61131-3 standard: Ladder Diagram (LD) and Structured Text (ST). The system utilizes 10 sensors and a light curtain to detect the position of the boxes and turn on-off conveyors. The robotic arm figures out where to correctly place the box by getting the data from the light curtain. If the item is small: it will let it go through, if the item is a small box: the arm will move the box to the box parallel to the traveling bed, if the item is large box: the arm will turn 90 degrees before placing the box down. The data from the light curtain is displayed onto the cabinet. </div>
+        <div class="body-text">Programmed a pick-and-place robotic sorting system using the IEC 61131-3 standard: Ladder Diagram (LD) and Structured Text (ST). The system utilizes 10 sensors and a light curtain to detect the position and size of the boxes and turn on-off the appropriate conveyors. The robotic arm figures out where to correctly place the box by getting the data from the light curtain. If the item is small: it will let it go through, if the item is a medium box: the arm will move the box to the parallel conveyor, if the item is large box: the arm will turn 90 degrees before placing the box down on the perpendicular conveyor. The data from the light curtain is displayed onto the cabinet for a visual confirmation. </div>
           </div>
         </div>
       <!-- IMAGE GALLERY -->
@@ -231,13 +230,21 @@
                   - IMAGE_NAME: the name of the image file in assets/images
                   - IMAGE_CAPTION: to the caption of the image
             -->
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images_personal/plc-end.gif" class="gallery-image">
-              <span class="image-caption">Footage of the counter.</span>
+            <div class="gallery-image-container">
+              <img src="../assets/images_personal/plc_startggf.gif" class="gallery-image">
+              <span class="image-caption">The items are separated into 3 different main conveyors. The middle conveyor is for small items (not boxes), the left conveyor is designed for the medium size boxes, the horizontal conveyor for large boxes. Each conveyor is controlled via photo-eyes located at the start and end of each conveyor. Items are brought into the system via a bool input from the light curtain that activates the items.
+      
+              </span>
             </div>
-            <div class="gallery-image-container half-width">
-              <img src="../assets/images_personal/plc-zoom.gif" class="gallery-image">
-              <span class="image-caption">Image showing the simple set-up.</span>
+
+            <div class="gallery-image-container">
+              <img src="../assets/images_personal/plc_zoomgf.gif" class="gallery-image">
+              <span class="image-caption">The cabinet digitally displays the size of the item traveling through the light curtain. This was designed to give confirmation of the item size before directing it to the correct location. Large: 224, Medium: 192, Small: 128. 
+              </span>
+            </div>
+
+            <div class="gallery-image-container">
+              <img src="../assets/images_personal/plc-endgf.gif" class="gallery-image">
             </div>
     <!-- FOOTER -->
     <div id="footer">
